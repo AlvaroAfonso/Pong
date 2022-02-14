@@ -6,7 +6,7 @@ Proyecto de Creando interfaces de usuario, asignatura de la ULPGC (Universidad d
 Esta práctica consiste en hacer una versión del famoso juego llamado Pong, el cuál consiste en una especie de tenis de mesa
 en dos dimensiones. La intención de esta primera práctica es tener nuestra primera toma de contacto con el lenguaje Processing.
 
-![Alt Text](https://gfycat.com/inexperiencedjollygodwit)
+![Alt Text](https://github.com/AlvaroAfonso/Pong/blob/main/export.gif)
 
 Nota: La velocidad del gif no coincide con la velocidad mientras se juega realmente.
 
