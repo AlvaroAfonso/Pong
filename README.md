@@ -41,7 +41,7 @@ Otro problema que me encontré fue a la hora de darle fluidez al juego, ya que a
 ###Controles
 
 Las teclas 'W' y 'S' son para el jugador uno, el de la izquierda, siendo para mover la pala arriba y abajo, respectivamente.
-Las teclas 'U' y 'J' son para el jugaodos dos, el de la derecha, funcionando igual que el anterior.
+Las teclas 'U' y 'J' son para el jugador dos, el de la derecha, funcionando igual que el anterior.
 
 ###Bibliografía
 
