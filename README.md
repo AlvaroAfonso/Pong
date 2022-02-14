@@ -8,7 +8,7 @@ en dos dimensiones. La intención de esta primera práctica es tener nuestra pri
 
 ![Alt Text](https://gfycat.com/inexperiencedjollygodwit)
 
-###Desarrollo
+### Desarrollo
 
 Dado que es la primera práctica no he querido adelantar acontecimientos y lo he hecho todo en un solo fichero ya que es la primera toma de contacto, sabiendo que podría hacer con varias clases aprovechando que está basado en Java.
 
@@ -38,12 +38,12 @@ Otro problema que me encontré fue a la hora de darle fluidez al juego, ya que a
   
 
 
-###Controles
+### Controles
 
 Las teclas 'W' y 'S' son para el jugador uno, el de la izquierda, siendo para mover la pala arriba y abajo, respectivamente.
 Las teclas 'U' y 'J' son para el jugador dos, el de la derecha, funcionando igual que el anterior.
 
-###Bibliografía
+### Bibliografía
 
 * Documentos de la propia práctica
 * Foro: https://qastack.mx/gamedev/4253/in-pong-how-do-you-calculate-the-balls-direction-when-it-bounces-off-the-paddl
