@@ -25,6 +25,8 @@ float playersHeight = 70;
 
 boolean showMenu = true;
 
+//GifMaker gifExport;
+
 void setup(){
   size(1000, 800);
   
@@ -42,6 +44,7 @@ void draw(){
   }else{
     game();
   }
+  
 }
 
 void game(){
