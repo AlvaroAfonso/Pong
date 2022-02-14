@@ -20,22 +20,21 @@ A nivel general, la práctica ha resultado bastante sencilla, con la salvedad de
 
 Otro problema que me encontré fue a la hora de darle fluidez al juego, ya que al ser para dos jugadores y el lenguaje no poder captar la pulsación de varias teclas simultáneamente, encontré una solución que conseguía un resultado perfecto. Cuando se pulsaran las teclas correspondientes a mover las palas, este avance se haría de forma automática durante las siguientes iteraciones de draw, haciendo innecesario comprobar si la tecla sigue constántemente pulsada, y así solo esperar la siguiente llamada de tecla soltada (keyReleased). Haiendo que el avance de la pala sea automático una vez pulsada una tecla, podremos estar atentos a los controles del otro jugador, y el resultado en la jugabilidad llega a parecer que si que se está detectando los controles de forma simultánea.
 
-   void keyPressed(){
+      void keyPressed(){
+       //modificacion del movimiento de Player 1
+       if(key == 'w' && p1PosY - p1MoveY - playersHeight/2 >= 0) p1MoveY = -10;
+       if(key == 's' && p1PosY + p1MoveY + playersHeight/2 <= height) p1MoveY = 10;
 
-    //modificacion del movimiento de Player 1
-    if(key == 'w' && p1PosY - p1MoveY - playersHeight/2 >= 0) p1MoveY = -10;
-    if(key == 's' && p1PosY + p1MoveY + playersHeight/2 <= height) p1MoveY = 10;
+       //modificacion del movimiento de Player 2
+       if(key == 'u' && p2PosY - p2MoveY - playersHeight/2 >= 0 ) p2MoveY = -10;
+       if(key == 'j' && p2PosY + p2MoveY + playersHeight/2 <= height) p2MoveY = 10; 
+       ...
 
-    //modificacion del movimiento de Player 2
-    if(key == 'u' && p2PosY - p2MoveY - playersHeight/2 >= 0 ) p2MoveY = -10;
-    if(key == 'j' && p2PosY + p2MoveY + playersHeight/2 <= height) p2MoveY = 10; 
-    ...
-
-    //quitamos el movimiento automatico que tenian los bloques de los jugadores, esto da mayor fluidez en la jugabilidad
-  void keyReleased(){
-    if(key == 'w' || key == 's') p1MoveY = 0;
-    if(key == 'u' || key == 'j') p2MoveY = 0;
-  }
+       //quitamos el movimiento automatico que tenian los bloques de los jugadores, esto da mayor fluidez en la jugabilidad
+      void keyReleased(){
+       if(key == 'w' || key == 's') p1MoveY = 0;
+       if(key == 'u' || key == 'j') p2MoveY = 0;
+      }
   
 
 
