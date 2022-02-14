@@ -12,7 +12,7 @@ Nota: La velocidad del gif no coincide con la velocidad mientras se juega realme
 
 ### Desarrollo
 
-Dado que es la primera práctica no he querido adelantar acontecimientos y lo he hecho todo en un solo fichero ya que es la primera toma de contacto, sabiendo que podría hacer con varias clases aprovechando que está basado en Java.
+Dado que es la primera práctica no he querido adelantar acontecimientos y lo he hecho todo en un solo fichero ya que es la primera toma de contacto, sabiendo que se podría hacer con varias clases aprovechando que está basado en Java.
 
 He tratado de usar (y no creo que fuera posible no usar algo) todos los puntos tratados en los documentos que explicaban los conceptos báscios para la realizaciçon de la práctica.
 
