@@ -8,6 +8,8 @@ en dos dimensiones. La intención de esta primera práctica es tener nuestra pri
 
 ![Alt Text](https://gfycat.com/inexperiencedjollygodwit)
 
+Nota: La velocidad del gif no coincide con la velocidad mientras se juega realmente.
+
 ### Desarrollo
 
 Dado que es la primera práctica no he querido adelantar acontecimientos y lo he hecho todo en un solo fichero ya que es la primera toma de contacto, sabiendo que podría hacer con varias clases aprovechando que está basado en Java.
@@ -40,8 +42,10 @@ Otro problema que me encontré fue a la hora de darle fluidez al juego, ya que a
 
 ### Controles
 
-Las teclas 'W' y 'S' son para el jugador uno, el de la izquierda, siendo para mover la pala arriba y abajo, respectivamente.
-Las teclas 'U' y 'J' son para el jugador dos, el de la derecha, funcionando igual que el anterior.
+* Las teclas 'W' y 'S' son para el jugador uno, el de la izquierda, siendo para mover la pala arriba y abajo, respectivamente.
+* Las teclas 'U' y 'J' son para el jugador dos, el de la derecha, funcionando igual que el anterior.
+* La tecla espacio se usa para volver al menú inicial
+* La tecla enter sirve iniciar el juego o bien reiniciar la partida en la que se encuentra
 
 ### Bibliografía
 
