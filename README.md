@@ -1,9 +1,9 @@
 # Pong
-Project for a subject from the ULPGC (Universidad de Las Palmas de Gran Canaria) made by **Álvaro Javier Afonso López**
+Proyecto de Creando interfaces de usuario, asignatura de la ULPGC (Universidad de Las Palmas de Gran Canaria) made by **Álvaro Javier Afonso López**
 
 ### Introducción
 
-Esta práctica consiste en hacer una versión del famoso juego lladamo Pong, el cuál consiste en una especie de tenis de mesa
+Esta práctica consiste en hacer una versión del famoso juego llamado Pong, el cuál consiste en una especie de tenis de mesa
 en dos dimensiones. La intención de esta primera práctica es tener nuestra primera toma de contacto con el lenguaje Processing.
 
 ![Alt Text](https://gfycat.com/inexperiencedjollygodwit)
@@ -14,7 +14,7 @@ Nota: La velocidad del gif no coincide con la velocidad mientras se juega realme
 
 Dado que es la primera práctica no he querido adelantar acontecimientos y lo he hecho todo en un solo fichero ya que es la primera toma de contacto, sabiendo que se podría hacer con varias clases aprovechando que está basado en Java.
 
-He tratado de usar (y no creo que fuera posible no usar algo) todos los puntos tratados en los documentos que explicaban los conceptos báscios para la realizaciçon de la práctica.
+He tratado de usar (y no creo que fuera posible no usar algo) todos los puntos tratados en los documentos que explicaban los conceptos básicos para la realizaciçon de la práctica.
 
 He tratado lo más posible de crear código reutilizable ubicándolo en funciones con nombres adecuados como para no necesitar de tantos comentarios.
 
